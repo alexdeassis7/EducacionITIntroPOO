@@ -5,26 +5,6 @@ public class Persona {
 	private String nombre;
 	private String apellido;
 	
-	//Sobrecarga de constructores!
-	
-	public Persona() {
-	//constructor vacio 
-	}
-	public Persona(int dni) {
-		this.dni = dni ;
-	}
-	//constructor sobrecargado1
-	public Persona(String nombre, String Apellido ) {
-		this.apellido = Apellido;
-		this.nombre = nombre;
-	}
-	//constructor sobrecargado2
-	public Persona(int dni ,String nombre , String Apellido ) {
-		this.apellido = Apellido;
-		this.nombre = nombre;
-		this.dni = dni ;
-	}
-	
 	
 	
 	public int getDni() {
@@ -47,6 +27,30 @@ public class Persona {
 	}
 
 	
+	
+	
+	
+	//Sobrecarga de constructores!
+	
+		public Persona() {
+		//constructor vacio 
+		}
+		public Persona(int dni) {
+			this.dni = dni ;
+		}
+		//constructor sobrecargado1
+		public Persona(String nombre, String Apellido ) {
+			this.apellido = Apellido;
+			this.nombre = nombre;
+		}
+		//constructor sobrecargado2
+		public Persona(int dni ,String nombre , String Apellido ) {
+			this.apellido = Apellido;
+			this.nombre = nombre;
+			this.dni = dni ;
+		}
+		
+		
 	
 	
 }
